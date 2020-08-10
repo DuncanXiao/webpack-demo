@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "repository": "git@feimao:DuncanXiao/webpack-demo.git",
+  "engines": {
+    "node": "14.7.0"
+  },
   "scripts": {
     "dev": "webpack --config webpack.config.js --mode=development"
   },
