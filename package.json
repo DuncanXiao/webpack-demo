@@ -7,7 +7,8 @@
     "node": "14.7.0"
   },
   "scripts": {
-    "dev": "webpack --config webpack.config.js --mode=development"
+    "dev": "webpack --config webpack.config.js --mode=development",
+    "compiler": "node webpack.config.js"
   },
   "author": "duxiao <duxiao@xogrp.com>",
   "license": "MIT",
@@ -17,5 +18,8 @@
     "babel-loader": "^8.1.0",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "tapable": "^1.1.3"
   }
 }
